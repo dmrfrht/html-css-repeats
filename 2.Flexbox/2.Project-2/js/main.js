@@ -1,7 +1,7 @@
 /* Google Map */
 var map;
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.querySelector('.map'), {
     center: {lat: 41.008240, lng: 28.978359}, // Istanbul
     zoom: 14
   });
