@@ -17,10 +17,7 @@
 <nav id="navbar">
   <h1 class="logo">
     <span class="text-primary">
-      <i class="fas fa-book-open"></i>
-      Edge
-    </span>
-    Ledger
+      <i class="fas fa-book-open"></i> Edge</span>Ledger
   </h1>
   <ul>
     <li><a href="#home">Home</a></li>
@@ -158,16 +155,12 @@
 </footer>
 <!-- footer -->
 
-<script>
-  var map;
 
-  function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 41.008240, lng: 28.978359}, // Istanbul
-      zoom: 14
-    });
-  }
-</script>
+<script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT_sA8xcw5XzNlOLONJfEPPdgh9CUuXPc&callback=initMap"
         async defer></script>
 </body>
