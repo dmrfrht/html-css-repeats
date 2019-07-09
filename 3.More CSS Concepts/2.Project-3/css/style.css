@@ -87,7 +87,7 @@ body {
     animation: text var(--animate-speed) forwards ease-in 1s;
 }
 
-/* keyframes */
+/* keyframes  */
 @keyframes heading {
     to {
         transform: translateY(0);
