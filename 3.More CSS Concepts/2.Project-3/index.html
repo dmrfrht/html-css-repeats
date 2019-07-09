@@ -68,5 +68,25 @@
   </div>
 </section>
 <!-- page 4 -->
+
+<script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script>
+  // Smooth Scollling
+  $('.btn').on('click', function (event) {
+    if (this.hash !== '') {
+      event.preventDefault();
+      const hash = this.hash;
+      $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800
+      );
+    }
+  });
+</script>
 </body>
 </html>
