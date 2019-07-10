@@ -180,6 +180,17 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none;
 }
 
+/* Inner Page Grid Container */
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
+}
 
 /* navbar */
 #main-nav {
@@ -321,5 +332,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 90%;
     cursor: pointer;
 }
+
+/* about */
 
 
