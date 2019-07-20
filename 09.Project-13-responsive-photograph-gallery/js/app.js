@@ -1,5 +1,5 @@
 $('#view-work').on('click', () => {
-  const images = $('#images').position().top;
+  const images = $('#img').position().top;
   $('html, body').animate({
     scrollTop: images
   }, 900)
