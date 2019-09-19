@@ -1,0 +1,32 @@
+
+h2 {
+  margin: 0;
+}
+
+.services {
+  border: 3px solid black;
+  height: 300px;
+  display: grid;
+  grid: 50% 50% / 33.3% 33.3% 33.3%;
+  /*grid-auto-flow: column;*/
+  grid-auto-flow: dense;
+}
+
+.service {
+  color: white;
+  text-align: center;
+}
+
+.service-1 {
+  background-color: darkviolet;
+  grid-row: 2 / 3;
+}
+
+.service-2 {
+  background-color: limegreen;
+}
+
+.service-3 {
+  background-color: teal;
+}
+

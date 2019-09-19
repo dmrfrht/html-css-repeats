@@ -1,0 +1,36 @@
+
+h2 {
+  margin: 0;
+}
+
+.services {
+  border: 3px solid black;
+  height: 300px;
+  display: grid;
+  /*grid-template-columns: 33.3% 33.3% 33.3%;*/
+  /*grid-template-columns: repeat(3, 33.3%);*/
+  /*grid-template-rows: 50% 50%;*/
+  /*grid-template-rows: repeat(2, 50%);*/
+
+  /** shorthand grid: **/
+  /*row / column*/
+  grid: repeat(2, 50%) / repeat(3, 33.3%);
+}
+
+.service {
+  color: white;
+  text-align: center;
+}
+
+.service-1 {
+  background-color: darkviolet;
+  grid-column: 1 / span 4;
+}
+
+.service-2 {
+  background-color: limegreen;
+}
+
+.service-3 {
+  background-color: teal;
+}

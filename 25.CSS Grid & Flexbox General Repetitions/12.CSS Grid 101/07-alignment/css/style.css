@@ -1,0 +1,44 @@
+
+h2 {
+  margin: 0;
+}
+
+.services {
+  border: 3px solid black;
+  height: 300px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
+
+  /* justify content */
+  /*justify-content: flex-start;*/
+  /*justify-content: flex-end;*/
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-around;*/
+  /*justify-content: space-evenly;*/
+
+  /* align items */
+  /*align-items: stretch;*/
+  /*align-items: initial;*/
+  /*align-items: flex-start;*/
+  /*align-items: flex-end;*/
+  align-items: center;
+}
+
+.service {
+  color: white;
+  text-align: center;
+}
+
+.service-1 {
+  background-color: darkviolet;
+}
+
+.service-2 {
+  background-color: limegreen;
+}
+
+.service-3 {
+  background-color: teal;
+}
